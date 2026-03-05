@@ -7,20 +7,18 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-
     <link rel="stylesheet" href="./assets/css/boostrap.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-3 px-md-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3 px-md-5">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
-                <i class="fa-solid fa-circle-notch fs-3 me-2"></i> ConnectTech
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <i class="fa-solid fa-circle-notch fs-3 me-2 text-primary"></i> ConnectTech
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -28,24 +26,24 @@
             </button>
             
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav fw-semibold" style="font-size: 0.9rem;">
-                    <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">INICIO</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">SERVICIOS</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark mx-2" href="#">NOSOTROS</a></li>
-                    <li class="nav-item"><a class="nav-link text-primary mx-2" href="#">CONTACTO</a></li>
+                <ul class="navbar-nav fw-semibold" style="font-size: 0.95rem;">
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">SERVICIOS</a></li>
+                    <li class="nav-item"><a class="nav-link mx-2" href="#">NOSOTROS</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary mx-2 active" href="#">CONTACTO</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main class="main-wrapper d-flex flex-column align-items-center justify-content-center">
+    <main class="main-wrapper flex-grow-1 d-flex flex-column align-items-center justify-content-center py-5">
         
         <h1 class="main-title mb-4 text-center">SOLICITUD DE CONTACTO</h1>
 
         <div class="card form-card shadow-lg border-0">
             
             <div class="card-header form-header border-0 d-flex align-items-center px-4 py-3">
-                <i class="fa-solid fa-address-book fs-5 me-2 text-dark-blue"></i>
+                <i class="fa-regular fa-address-book text-dark-blue fs-5 me-2"></i>
                 <h5 class="mb-0 fw-bold text-dark-blue fs-6">FORMULARIO DE REGISTRO (5 DATOS)</h5>
             </div>
 
@@ -92,12 +90,38 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary w-100 btn-submit fw-bold py-2 shadow-sm">
-                        ENVIAR MENSAJE <i class="fa-regular fa-paper-plane"></i>
+                        ENVIAR MENSAJE <i class="fa-regular fa-paper-plane ms-2"></i>
                     </button>
                 </form>
             </div>
         </div>
     </main>
+
+    <footer class="bg-dark text-white py-4 mt-auto border-top border-secondary">
+        <div class="container px-md-5">
+            <div class="row align-items-center text-center text-md-start">
+                
+                <div class="col-md-8 mb-3 mb-md-0">
+                    <h6 class="mb-1 fw-bold text-primary">Desarrollado por el programador: Angel Ibraym Ortiz Martinez.</h6>
+                    <p class="mb-0 text-light opacity-75" style="font-size: 0.85rem;">
+                        <i class="fa-solid fa-laptop-code me-1"></i> Frontend Developer | &copy; 2026 ConnectTech
+                    </p>
+                </div>
+                
+                <div class="col-md-4 text-md-end footer-social">
+                    <a href="mailto:tu-correo@email.com" class="text-white opacity-75 text-decoration-none mx-2 fs-5" title="Enviar Correo">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/tu-usuario" target="_blank" class="text-white opacity-75 text-decoration-none mx-2 fs-5" title="Mi GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/tu-usuario" target="_blank" class="text-white opacity-75 text-decoration-none ms-2 fs-5" title="Mi LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
