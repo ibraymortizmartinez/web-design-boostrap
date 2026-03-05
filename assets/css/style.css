@@ -1,0 +1,89 @@
+/* Configuración General */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    /* Ajusta el fondo para que la imagen se vea bien */
+    background-color: #f0f4f8; 
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Colores Personalizados */
+.text-dark-blue {
+    color: #1e3a8a !important; /* Azul oscuro para títulos */
+}
+.text-primary {
+    color: #0d6efd !important; /* Azul vibrante de los iconos */
+}
+
+/* Contenedor Principal */
+.main-wrapper {
+    min-height: calc(100vh - 80px); /* Restamos la altura aprox del navbar */
+    padding: 2rem 1rem;
+}
+
+/* Título Principal */
+.main-title {
+    color: #1e3a8a;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* Tarjeta del Formulario */
+.form-card {
+    width: 100%;
+    max-width: 480px; /* Ancho similar al de la imagen */
+    border-radius: 15px;
+    overflow: hidden; /* Para que el header respete los bordes redondeados */
+}
+
+/* Encabezado de la Tarjeta */
+.form-header {
+    /* Gradiente suave que imita la imagen */
+    background: linear-gradient(90deg, #e0e7ff 0%, #c7d2fe 100%);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Estilos de Inputs y Etiquetas */
+.fs-sm {
+    font-size: 0.85rem;
+    margin-bottom: 0.2rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da; /* Evita el borde azul intenso por defecto de Bootstrap */
+}
+
+/* Haciendo que el icono y el input parezcan uno solo */
+.input-group-text {
+    background-color: transparent;
+    border-radius: 8px 0 0 8px;
+}
+.form-control {
+    border-radius: 0 8px 8px 0;
+}
+.input-group:focus-within .input-group-text,
+.input-group:focus-within .form-control {
+    border-color: #0d6efd; /* Resalta el borde cuando se hace clic */
+}
+
+/* Botón de Envío */
+.btn-submit {
+    border-radius: 50px; /* Botón tipo "píldora" */
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
