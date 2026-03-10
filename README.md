@@ -70,6 +70,6 @@ Este desarrollo sirve como un estudio comparativo directo:
 **Angel Ibraym Ortiz Martínez.**
 * Frontend Developer
 * 📍 Pachuca, Hidalgo, México.
-* 💼 LinkedIn: [Tu Perfil de LinkedIn](www.linkedin.com/in/angel-ibraym-ortiz-martínez-973360354)
+* 💼 LinkedIn: Angel Ibraym Ortiz Martinez (www.linkedin.com/in/angel-ibraym-ortiz-martínez-973360354)
 ---
 *Si este código te sirvió de inspiración o aprendizaje, ¡te invito a dejarle una ⭐ al repositorio!*
